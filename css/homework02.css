@@ -1,0 +1,51 @@
+
+        * {
+            margin: 0;
+            padding: 0
+        }
+
+        .head {
+            color: black;
+            background-color: #E0FFFF;
+            text-align: center;
+            height: 60px;
+            line-height: 60px;
+
+        }
+
+        .box {
+            width: 400px;
+            height: 620px;
+            background: url(../images/wallhaven-747189.jpg);
+          
+
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+
+        }
+
+        .btn {
+            height: 32px;
+            width: 100px;
+            background-color: #7FFFD4;
+            text-align: center;
+            border: 1px solid aquamarine
+        }
+
+        h3 {
+            color: #2BC9FA;
+        }
+
+        .images {
+            width: 400px;
+            height: 250px;
+        }
+
+        p {
+            margin-top: 30px;
+        }
+
+        a {
+            margin-top: 8px;
+        }

@@ -1,0 +1,85 @@
+.table1{
+
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+}
+.table1>div{
+
+    width: 240px;
+    height: 340px;
+    box-sizing: border-box;
+    border: 1px solid rgb(223, 223, 223);
+    background: rgb(235,235,235);
+    float: left;
+    font-size: 12px;
+    color: rgb(81,81,81);
+}
+.table1>div>p{
+
+    text-indent: 15px;
+}
+.table1>.page>img{
+
+    display: block;
+    margin: 15px auto;
+}
+.table1>div:not(:last-child){
+
+    margin-right:13.3333px;
+}
+h2,h3{
+    display: inline-block;
+    color: rgb(71, 198, 195);
+}
+h2{
+    margin-left: 15px;
+}
+
+.page:hover{
+    cursor: pointer;
+    color: rgb(255, 170, 0);
+}
+.page:hover h2{
+    color: rgb(255, 170, 0);
+}
+.page:hover h3{
+    color: rgb(255, 170, 0);
+}
+.table2{
+ 
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    background: #fff;
+    position: relative;
+    margin-top: 15px;
+}
+.table2>div{
+  
+    width: 240px;
+    height: 340px;
+    box-sizing: border-box;
+    border: 1px solid rgb(223, 223, 223);
+    background: rgb(235,235,235);
+    float: left;
+    font-size: 12px;
+    color: rgb(81,81,81);
+}
+.table2>div>p{
+  
+    text-indent: 15px;
+}
+.table2>.page>img{
+
+    display: block;
+    margin: 15px auto;
+}
+.table2>div:not(:last-child){
+
+    margin-right:13.3333px;
+}

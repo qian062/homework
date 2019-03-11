@@ -1,0 +1,246 @@
+*{margin:0;padding:0;}
+.top{
+    height: 97px;
+    width: 100%;
+    background: url("../images/xiaomishop.png") no-repeat 195px 25px;
+    background-size: 200px 48px;
+
+}
+
+.mid{
+    height: 556px;
+    overflow: hidden;
+    background: url("../images/background.png") no-repeat 0px 0px #F6F6FE;
+    background-size: 800px 556px;
+    margin-left:-100px;
+    
+}
+
+.form
+{
+    margin-left: 913px;
+    margin-top: 35px;
+    width: 411px;
+    height: 527px;
+    background-color: #fff;
+    
+    text-align: center;
+    color: #6F6F6F;
+}
+
+.form-content{
+    
+    position: relative;
+    height: 411px;
+}
+.form-content>div{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+.form-content2>img{
+   margin-top: 130px;
+   
+}
+.form-content2{
+  display: none;
+   font-size: 14px;
+}
+.form-content2 a{
+  text-decoration: none;
+   color: #FF6700;
+}
+.scan{
+ margin-top: 15px;
+}
+
+
+
+
+.login{
+    height: 60px;
+    
+}
+
+
+.login>span{
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+
+
+
+.active{
+    color:orangered;
+  
+    
+}
+
+
+input{
+    width: 348px;
+    height: 48px;
+    border: 1px solid #E0E0E0;
+    outline: none;
+    font-size: 14px;
+   
+}
+
+button{
+    background-color: #FF6700;
+    width: 350px;
+    height: 50px;
+    border: 1px solid #E0E0E0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    outline: none;
+}
+
+.admin{
+    margin-top: 35px;
+    margin-bottom: 13px;
+}
+
+.password{
+    margin-bottom: 23px;
+}
+
+.more{
+    width: 350px;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    margin-top: 10px;
+    font-size: 14px
+
+}
+
+.more>a{
+    text-decoration: none;
+}
+
+.mobile{
+ position:absolute;
+ top: 0;left: 0;
+ color: #FF6700;
+ 
+}
+
+.register{
+position:absolute;
+ top: 0;right: 0;
+ 
+}
+.register>a{
+color: #6F6F6F;
+text-decoration: none;
+}
+
+.atonce:hover{
+color: #FF6700;
+}
+
+.forget:hover{
+color: #FF6700;
+}    
+
+.other{
+  margin-top: 93px;
+  color: #C0C0C0;
+  margin-bottom: 12px;
+  font-size: 14px;
+}
+
+.logo>a{
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  margin-left: 13px;
+  margin-right: 13px;
+  border-radius: 50%;
+}
+
+.qq{
+background-image: url("../images/qq.png");
+background-size: 32px 32px;
+
+}
+.weibo{
+background-image: url("../images/weibo.png");
+background-size: 32px 32px;
+
+}
+.zhifubao{
+background-image: url("../images/zhifubao.png");
+background-size: 32px 32px;
+
+}
+.weixin{
+background-image: url("../images/weixin.png");
+background-size: 32px 32px;
+
+}
+
+
+.bottom{
+    height: 182px;
+    text-align: center;
+   width: 1519px;
+   font-size: 14px;
+   color: #8E8E8E;
+   overflow: hidden;
+}
+
+
+ul{
+width: 335px;
+   margin-left: 450px;
+   margin-right: auto;
+   margin-top: 105px;
+   overflow: hidden;
+}
+
+
+li{
+    float: left;
+    list-style: none;
+    margin-right: 12.5px
+}
+.private{
+    margin-right: 0px
+}
+.bottom>p{
+    margin-top: 18px;
+    overflow: hidden;
+    margin-left:-180px;
+}
+
+.picture{
+  
+  text-decoration: none;
+  
+  display: inline-block
+
+  
+}
+.number{
+    
+    width: 20px;
+    height: 20px;
+   
+   
+}
+.bottom a{
+    text-decoration: none;
+    color: #8E8E8E;
+}

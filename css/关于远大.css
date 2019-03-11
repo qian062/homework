@@ -1,0 +1,77 @@
+
+    * {
+        margin: 0;
+        padding: 0
+    }
+
+    .top {
+        text-align: center;
+
+    }
+
+
+    .title {
+        background-color: #A2DBF9;
+        height: 50px;
+
+    }
+
+    .title-small {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 100%;
+
+    }
+
+    /* 内联块标签  不能直接用标签名做选择器 
+    用后代选择器或者 class选择器*/
+    .title-small>a {
+        display: block;
+        width: 100px;
+        height: 100%;
+        background: #01AEF0;
+        text-align: center;
+        /*文本居中 指的是上下位置的居中   未涉及左右位置*/
+        line-height: 50px;
+        color: #fff;
+        text-decoration: none;
+
+    }
+
+    .container {
+        width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container>p {
+        /* text-indent文本缩紧 */
+        text-indent: 30px;
+        margin-top: 10px;
+        font-size: 14px;
+        color: #666;
+    }
+
+    .bottom {
+        background-color: #A2DBF9;
+        text-align: center;
+        font-size: 12px;
+
+    }
+
+    .bottom a {
+        display: inline-block;
+        margin: 0px 10px;
+        text-decoration: none;
+        color: #666;
+
+    }
+
+    .bottom-first>a {
+        margin-top: 10px;
+    }
+
+    .bottom-second>a {
+        margin: 10px 0px;
+    }

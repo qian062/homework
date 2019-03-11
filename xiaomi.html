@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/xiaomi.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+
+</head>
+<body>
+    <div class="top">
+    </div>
+    <div class="mid">
+        <div class="form">
+
+         <div class="login">
+            <span class="active">帐号登录</span>
+            <span class="code">扫码登录</span>
+          </div>
+          <div class="form-content">
+              <div class="form-content1">
+             <input class="admin" type="text" placeholder="邮箱/手机号码/小米ID"> 
+              <input class="password" type="text" placeholder="密码"> 
+             <button >登录</button>
+
+             <div class="more">
+             <a href="#" class="mobile">手机短信登录/注册</a>
+             <span class="register">
+             <a href="#" class="atonce" >立即注册</a>
+             <span>|</span>
+             <a href="#" class="forget">忘记密码</a>
+            </span>
+             </div>
+          
+            <div class="other">
+              ———————其他方式登录———————
+            </div>
+
+            <div class="logo">
+            <a href="#" class="qq"></a>
+            <a href="#" class="weibo"></a>
+            <a href="#" class="zhifubao"></a>
+            <a href="#" class="weixin"></a>
+             </div>
+            </div>
+
+
+
+            <div class="form-content2">
+                <img src="images/xiaomima.png" alt=""> 
+                <p class="scan">使用<a href="#">小米商城APP</a> 扫一扫</p>
+                <p>小米手机可打开「设置」>「小米帐号」扫码登录</p>
+
+
+
+
+
+
+
+                </div>
+    </div>
+
+
+
+        </div>
+
+
+    </div>
+    <div class="bottom">
+    
+        <ul>
+            <li><a href="">简体</a> </li>
+            <li>|</li>
+            <li><a href="">简体</a></li>
+            <li>|</li>
+            <li><a href="">English</a></li>
+            <li>|</li>
+            <li><a href="">常见问题</a></li>
+            <li>|</li>
+            <li class="private"><a href="">隐私政策</a></li>
+        </ul>
+    
+        <p>小米公司版权所有-京ICP备10046444-   
+            <a href="#" class="picture"> 
+                    <img class="number" src="images/ghs.png" alt="">    
+            </a>
+              京公网安备11010802020134号-京ICP证110507号 </p>
+    </div>
+    <script>
+            $(".login span").click(function(){
+                $(this).addClass("active").siblings().removeClass("active");
+                console.log($(this).index())
+                $(".form-content>div").eq($(this).index()).show().siblings().hide()
+            })
+        </script>
+    
+</body>
+</html>
